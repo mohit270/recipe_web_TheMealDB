@@ -39,7 +39,7 @@ header nav h1{
 header nav form{
     display: flex;
     justify-content: center;
-    width: 55%;
+    width: 80%;
     height: 40px;
     border-radius: 20px;
 }
@@ -244,7 +244,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     }
     header nav form{
         margin-top: 10px;
-        width: 80%;
+        width: 60%;
         height: 20%;
     }
     .recipe-container{
