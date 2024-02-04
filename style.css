@@ -243,8 +243,9 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
         flex-direction: column;
     }
     header nav form{
+        padding: 20px;
         margin-top: 10px;
-        width: 60%;
+        width: 70%;
         height: 20%;
     }
     .recipe-container{
