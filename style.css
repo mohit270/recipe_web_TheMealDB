@@ -9,7 +9,8 @@ body{
     background: linear-gradient(to right, #213A50, #071938);
     color: white;
 }
-.header-textt{
+.header-text{
+    margin-left: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,6 +304,15 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
         position: fixed;
         top: 42%;
         left: 40%;
+    }
+    .header-text{
+        font-size: 20px;
+        margin-left: 70px;
+        
+    }
+    .sub-header-text{
+        font-size: 18px;
+        margin-left: 10px;
     }
 
 }
