@@ -274,7 +274,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     .recipe-details-content-recipe-name{
         font-size: 14px;
         position: fixed;
-        top: 1.5%;
+        top: 2.5%;
         left: 4%;
     }
     .recipe-close-btn{
