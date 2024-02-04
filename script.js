@@ -3,6 +3,8 @@ const search_box = document.querySelector('.search-box');
 const recipe_container = document.querySelector('.recipe-container');
 const recipe_details_content = document.querySelector('.recipe-details-content');
 const close_btn = document.querySelector('.recipe-close-btn');
+const header_text = document.querySelector('.header-text');
+const sub_header_text = document.querySelector('.sub-header-text');
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -14,7 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
 const fetchRecipe = async (query)=> {
 
     try{
-        if(query != '') recipe_container.innerHTML = ` <h3 class="dialer">Searching Your Recipes....</h3>`;
+        if(query != ''){
+            search_box.value = '';
+            header_text.style.display = 'none';
+            sub_header_text.style.display = 'none';
+            recipe_container.innerHTML = ` <h3 class="dialer">Searching Your Recipes....</h3>`;
+        }
         const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
             if(query != '')recipe_container.innerHTML = ``;
             const response = await data.json();

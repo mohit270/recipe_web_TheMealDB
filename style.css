@@ -250,11 +250,12 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     }
     
     .recipe-container{
-        margin-left: 3vh;
+        margin-left: 3%;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(1, minMax(300px, 1fr));
         gap: 20px;
+        
     }
     .recipe-details-content-instruction {
         position: fixed;
