@@ -128,7 +128,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     width: 300px;
     position: fixed;
     top: 5%;
-    left: 3%;
+    left: 5%;
     max-lines: 3;
 }
 .recipe-details-content-recipe-area{
@@ -136,7 +136,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     width: 300px;
     position: fixed;
     top:17%;
-    left: 3%;
+    left: 5%;
 }
 .recipe-details-content-recipe-category{
     font-size: 25px;
@@ -243,11 +243,11 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
         flex-direction: column;
     }
     header nav form{
-        padding: 20px;
-        margin-top: 10px;
-        width: 70%;
-        height: 20%;
+        margin: 10px;
+        width:130px;
+        height:60px;
     }
+    
     .recipe-container{
         margin-left: 45px;
         text-align: center;
@@ -308,12 +308,12 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     }
     .header-text{
         font-size: 20px;
-        margin-left: 70px;
+        margin-left: 0px;
         
     }
     .sub-header-text{
         font-size: 18px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
 }
