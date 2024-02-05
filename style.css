@@ -242,6 +242,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
         
     }
     .recipe-details-content-instruction {
+        height: 400px;
         position: fixed;
         left: 3%;
         bottom: 1%;
@@ -275,6 +276,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     
     .recipe-details-content-recipe-ingredient{
         width: 34%;
+        height: 400px;
         font-size: 9px;
         position: fixed;
         left: 65%;
