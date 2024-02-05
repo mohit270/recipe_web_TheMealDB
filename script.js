@@ -5,6 +5,7 @@ const recipe_details_content = document.querySelector('.recipe-details-content')
 const close_btn = document.querySelector('.recipe-close-btn');
 const header_text = document.querySelector('.header-text');
 const sub_header_text = document.querySelector('.sub-header-text');
+const body = document.querySelector('body');
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -39,6 +40,7 @@ const fetchRecipe = async (query)=> {
 
                 // adding EventListener to button
                 button.addEventListener('click',()=>{
+                    body.parentElement.style.overflow = 'hidden';
                     openRecipePopup(meal);
                 });
 
@@ -88,6 +90,7 @@ const openRecipePopup = (meal)=>{
 }
 
 close_btn.addEventListener('click',()=>{
+    body.parentElement.style.overflow = 'scroll';
     recipe_details_content.parentElement.style.display = 'none';
 })
 

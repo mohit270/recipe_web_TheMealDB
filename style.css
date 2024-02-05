@@ -50,6 +50,7 @@ form input[type="text"]{
     border: 2px black solid;
     border-right: none;
     font-size: 25px;
+    outline: 0;
 
 }
 form input[type="text"]::after{
@@ -89,20 +90,12 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     border: 2px white solid;
     transition: all 0.5s ease-in-out;
     overflow-y: scroll;
-}
-.recipe-details::-webkit-scrollbar{
-    width: 10px;
-}
-.recipe-details::-webkit-scrollbar-thumb{
-    background-color: #fff;
-    border-radius: 16px;
-    -webkit-border-radius:16px;
+    
 }
 
 .recipe-details-content{
     padding: 30px;
 }
-
 .recipe-details-content-youtube-link{
     width: 50%;
     height: 50%;
@@ -113,7 +106,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
 }
 .recipe-close-btn{
     position: fixed;
-    right:0px;
+    right:1%;
     top: 1%;
     flex-grow: 1;
     padding: 10px;
@@ -147,25 +140,15 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
 }
 
 .recipe-details-content-instruction{
-    position: fixed;
-    left: 3%;
-    top: 55%;
+    margin-left: 3%;
+    margin-top: 500px;
     font-size: small;
     letter-spacing: 0.6px;
     word-spacing: 1px;
     max-lines: 18;
     line-height: 30px;
     white-space: pre-line;
-    position: fixed;
     overflow-y: scroll;
-}
-.recipe-details-content-instruction::-webkit-scrollbar{
-    width: 10px;
-}
-.recipe-details-content-instruction::-webkit-scrollbar-button{
-    background-color: #fff;
-    border-radius: 16px;
-    -webkit-border-radius:16px;
 }
 .recipe-details-content-recipe-instruction span{
     font-size: 17px;
@@ -176,6 +159,7 @@ form:hover , .recipe button:hover,.recipe-close-btn:hover{
     position: fixed;
     left: 78%;
     top: 5%;
+    overflow-y: scroll;
 }
 
 .recipe-details-content-recipe-ingredient{
